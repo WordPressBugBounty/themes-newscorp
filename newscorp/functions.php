@@ -46,7 +46,6 @@ function newscorp_filter_default_theme_options($defaults)
     $defaults['select_main_banner_layout_section'] = 'layout-4';
     $defaults['secondary_color'] = '#b80000';
     $defaults['select_update_post_filterby'] = 'cat';
-    $defaults['global_show_min_read'] = 'no';
     $defaults['frontpage_content_type']  = 'frontpage-widgets-and-content';
     $defaults['featured_news_section_title'] = __('Featured News', 'newscorp');
     $defaults['show_featured_post_list_section'] = 1;
