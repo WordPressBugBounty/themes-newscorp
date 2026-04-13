@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: NewsCorp is an enterprise-grade WordPress child theme for MoreNews, tailored for professional news organizations and publishing houses requiring newspaper-grade layouts. It bundles specialized template kits and starter sites with a versatile header and footer builder to facilitate complex site architectures. The theme provides deep integration for the Block Editor and leading page builders, ensuring editorial teams can manage content-rich homepages without code. Built for performance and reliability, it is AMP-ready, SEO-optimized, and follows WCAG accessibility standards. It supports WooCommerce and includes RTL-ready demos in English, Spanish, French, and Arabic. https://afthemes.com/products/newscorp/
 Template: morenews
-Version: 1.1.27
+Version: 1.1.28
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 6.9
@@ -195,7 +195,9 @@ body.aft-dark-mode .widget>ul>li {
     border-top-color: rgba(255, 255, 255, 0.2);
 }
 
-
+#main-navigation-bar .main-navigation .menu-desktop > .menu > li > a{
+    color: #fff;
+}
 
 article.sticky .read-single.no-post-image > div.read-img::before{
     top: 0;
